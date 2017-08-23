@@ -14,24 +14,13 @@ namespace WelcomeToWeb.Controllers
         {
             return View();
         }
-
-        public IActionResult About()
+        public string First()
         {
-            ViewData["Message"] = "Your application description page.";
-
-            return View();
+            return "Hello World";
         }
-
-        public IActionResult Contact()
+        public IActionResult API()
         {
-            ViewData["Message"] = "Your contact page.";
-
-            return View();
-        }
-
-        public IActionResult Error()
-        {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+            
         }
     }
 }
