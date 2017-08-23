@@ -18,9 +18,5 @@ namespace WelcomeToWeb.Controllers
         {
             return "Hello World";
         }
-        public IActionResult API()
-        {
-            
-        }
     }
 }
