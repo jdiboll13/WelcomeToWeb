@@ -1,5 +1,10 @@
 <br>
 <br>
+@if (ViewData["email"] != null)
+{
+    <h4>Thank for adding you name, @ViewData["name"] </h4>
+}
+
 <br>
 <div>
     <form asp-controller="Subscribe" asp-action="Index" method="post">
