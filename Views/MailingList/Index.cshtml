@@ -1,0 +1,13 @@
+@model List<string>
+<br>
+<br>
+<br>
+<div>
+    <h1>Email Listing</h1>
+    <ulp>
+        @foreach(var person in Model)
+        {
+            <li>@person</li>
+        }
+    </ul>
+</div>
